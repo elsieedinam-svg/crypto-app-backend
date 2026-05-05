@@ -1,4 +1,4 @@
-# Easy Crypto Clone — Backend Server
+# Easy Crypto — Backend Server
 
 Node.js + Express + MongoDB backend for the Easy Crypto Clone school project.
 
