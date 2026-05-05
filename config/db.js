@@ -14,7 +14,7 @@ const connectDB = async () => {
     console.error('2. Ensure your IP address is whitelisted in MongoDB Atlas.');
     console.error('3. Verify the database credentials in the connection string.');
     console.error('================================================');
-    process.exit(1);
+    throw err;
   }
 };
 

@@ -8,4 +8,8 @@ connectDB().then(() => {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
   });
+}).catch((err) => {
+  console.error("Failed to start server due to database connection error.");
+  // Let Node.js exit naturally, ensuring stderr is flushed
+  process.exitCode = 1;
 });
