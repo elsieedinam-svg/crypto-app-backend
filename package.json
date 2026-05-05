@@ -1,7 +1,7 @@
 {
-  "name": "coinbase-clone-server",
+  "name": "easy-crypto-server",
   "version": "1.0.0",
-  "description": "Node.js + Express + MongoDB backend for Coinbase Clone",
+  "description": "Node.js + Express + MongoDB backend for Easy Crypto",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
